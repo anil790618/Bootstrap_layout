@@ -91,7 +91,7 @@ padding: 6px 12px;
 
 }
 .Ticket-section .card-body .card-title{
-    font-size: 3vw;
+    font-size: max(3vw,50px);
     font-weight: bold;
     /* color: #eb3f0f; */
     padding: 20px 0 40px 0;
@@ -107,7 +107,7 @@ padding: 6px 12px;
 }
 
 .pcard{
-    width: 60%;
+    width: 80%;
     /* border: 2px solid red; */
     margin: auto;
     padding: 20px;
