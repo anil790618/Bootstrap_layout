@@ -12,7 +12,7 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg ">
+    <!-- <nav class="navbar navbar-expand-lg ">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">Navbar</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -47,11 +47,47 @@
                     </li>
                 </ul>
                 <div class="b">
-                    <button type="button" class="btn btn-warning">Purchase Ticket</button>
+                    <button type="button" class="btn btn-warning " id="btn-tog">Purchase Ticket</button>
                 </div>
             </div>
         </div>
-    </nav>
+    </nav> -->
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">Disabled</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
     <div class="container-fluid bannersection mb-5">
         <!-- <div class="text">
             <h1 class="h1">DIGITAL</h1>
@@ -78,16 +114,16 @@
                     <img src="images/about.png" alt="" class="img-fluid">
                 </div>
                 <div class="col-12 col-md-6 m-auto">
-                    <div class="aboutsection">
+                    <div class="aboutsection ">
                         <p class="small" style="    color: #eb3f0f;">ABOUT EVENT</p>
-                        <H1 class="H1">Welcome to Digital Marketing Meetup 2021</H1>
-                        <P>Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accu santium doloremque
+                        <H1 class="H1  text-center mb-2" >Welcome to Digital Marketing Meetup 2021</H1>
+                        <P style="text-align:justify">Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accu santium doloremque
                             laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi
                             architecto. On the other hand we denounce with righteous indignation and disen like men who
                             are so beguiled and demoralized by the charms of pleasure</P>
                         <P>Quisque placerat vitae lacus ut scelerisque. Fusce luctus odio ac nibh luctus, in porttitor.
                             quae ab illo inventore veritatis</P>
-                        <button type="button" class="btn btn-warning">Discover More</button>
+                        <button type="button" class="btn btn-warning mx-auto">Discover More</button>
 
                     </div>
                 </div>
@@ -258,21 +294,23 @@
 
                                 <div class="container">
                                     <div class="row " style="margin-top:3% ;">
-                                        <div class="col-12 col-sm-8">
+                                        <div class="col-12 col-md-8">
                                             <div class="card-body">
-                                                <h5 class="card-title h3 tab-card-heading">Introduction Business</h5>
+                                                <h5 class="card-title h3 tab-card-heading">Introduction Business 
+                                                </h5>
                                                 <p class="card-text">This is a wider card with supporting text below as
                                                     a natural lead-in to additional content. This content is a little
-                                                    bit longer.</p>
+                                                    bit longer.
+                                                </p>
 
                                             </div>
                                         </div>
-                                        <div class="col-12 col-sm-4 m-auto">
-                                            <div class="card-in-img ">
+                                        <div class="col-12 col-md-4 m-auto">
+                                            <div class="card-in-img " style="padding: 0 28%;"> 
                                                 <img src="https://reactheme.com/products/html/evenio/assets/images/tab/1.jpg"
-                                                    width="20%" style="border-radius: 50%;" alt="">
-                                                <img src="https://reactheme.com/products/html/evenio/assets/images/tab/2.jpg"
-                                                    width="20%" style="border-radius: 50%;" alt="">
+                                                width="max(20%,50px)" style="border-radius: 50%;" alt="">
+                                            <img src="https://reactheme.com/products/html/evenio/assets/images/tab/2.jpg"
+                                                width="max(20%,50px)" style="border-radius: 50%;" alt=""> 
                                             </div>
                                         </div>
                                     </div>
@@ -293,7 +331,7 @@
 
                                 <div class="container">
                                     <div class="row " style="margin-top:3% ;">
-                                        <div class="col-12 col-sm-8">
+                                        <div class="col-12 col-md-8">
                                             <div class="card-body">
                                                 <h5 class="card-title h3 tab-card-heading">Digital Marketing Theory</h5>
                                                 <p class="card-text">This is a wider card with supporting text below as
@@ -302,12 +340,12 @@
 
                                             </div>
                                         </div>
-                                        <div class="col-12 col-sm-4">
-                                            <div class="card-in-img">
+                                        <div class="col-12 col-md-4">
+                                            <div class="card-in-img" style="padding: 0 28%;">
                                                 <img src="https://reactheme.com/products/html/evenio/assets/images/tab/3.jpg"
-                                                    width="20%" style="border-radius: 50%;" alt="">
+                                                    width="max(20%,50px)" style="border-radius: 50%;" alt="">
                                                 <img src="https://reactheme.com/products/html/evenio/assets/images/tab/4.jpg"
-                                                    width="20%" style="border-radius: 50%;" alt="">
+                                                    width="max(20%,50px)" style="border-radius: 50%;" alt="">
                                             </div>
                                         </div>
                                     </div>
@@ -328,7 +366,7 @@
 
                                 <div class="container">
                                     <div class="row " style="margin-top:3% ;">
-                                        <div class="col-12 col-sm-8">
+                                        <div class="col-12 col-md-8">
                                             <div class="card-body">
                                                 <h5 class="card-title h3 tab-card-heading">Lunch Break</h5>
                                                 <p class="card-text">This is a wider card with supporting text below as
@@ -337,10 +375,10 @@
 
                                             </div>
                                         </div>
-                                        <div class="col-12 col-sm-4">
-                                            <div class="card-in-img">
+                                        <div class="col-12 col-md-4">
+                                            <div class="card-in-img ii" style="padding: 0 40%;">
                                                 <img src="https://reactheme.com/products/html/evenio/assets/images/tab/5.jpg"
-                                                    width="20%" style="border-radius: 50%;" alt="">
+                                                    width="max(20%,50px)" style="border-radius: 50%;" alt="">
                                                 <!-- <img src="https://reactheme.com/products/html/evenio/assets/images/tab/2.jpg" width="30%" style="border-radius: 50%;" alt=""> -->
                                             </div>
                                         </div>
@@ -362,7 +400,7 @@
 
                                 <div class="container">
                                     <div class="row " style="margin-top:3% ;">
-                                        <div class="col-12 col-sm-8">
+                                        <div class="col-12 col-md-8">
                                             <div class="card-body">
                                                 <h5 class="card-title h3 tab-card-heading">Marketing Workshop</h5>
                                                 <p class="card-text">This is a wider card with supporting text below as
@@ -371,12 +409,12 @@
 
                                             </div>
                                         </div>
-                                        <div class="col-12 col-sm-4">
-                                            <div class="card-in-img">
+                                        <div class="col-12 col-md-4">
+                                            <div class="card-in-img" style="padding: 0 28%;">
                                                 <img src="https://reactheme.com/products/html/evenio/assets/images/tab/6.jpg"
-                                                    width="20%" style="border-radius: 50%;" alt="">
+                                                    width="max(20%,50px)" style="border-radius: 50%;" alt="">
                                                 <img src="https://reactheme.com/products/html/evenio/assets/images/tab/7.jpg"
-                                                    width="20%" style="border-radius: 50%;" alt="">
+                                                    width="max(20%,50px)" style="border-radius: 50%;" alt="">
                                             </div>
                                         </div>
                                     </div>
@@ -400,7 +438,7 @@
 
                                 <div class="container">
                                     <div class="row " style="margin-top:3% ;">
-                                        <div class="col-12 col-sm-8">
+                                        <div class="col-12 col-md-8">
                                             <div class="card-body">
                                                 <h5 class="card-title h3 tab-card-heading">Marketing Strategy</h5>
                                                 <p class="card-text">This is a wider card with supporting text below as
@@ -409,12 +447,12 @@
 
                                             </div>
                                         </div>
-                                        <div class="col-12 col-sm-4">
-                                            <div class="card-in-img">
+                                        <div class="col-12 col-md-4">
+                                            <div class="card-in-img" style="padding: 0 28%;">
                                                 <img src="https://reactheme.com/products/html/evenio/assets/images/tab/4.jpg"
-                                                    width="20%" style="border-radius: 50%;" alt="">
+                                                    width="max(20%,50px)" style="border-radius: 50%;" alt="">
                                                 <img src="https://reactheme.com/products/html/evenio/assets/images/tab/7.jpg"
-                                                    width="20%" style="border-radius: 50%;" alt="">
+                                                    width="max(20%,50px)" style="border-radius: 50%;" alt="">
                                             </div>
                                         </div>
                                     </div>
@@ -435,7 +473,7 @@
 
                                 <div class="container">
                                     <div class="row " style="margin-top:3% ;">
-                                        <div class="col-12 col-sm-8">
+                                        <div class="col-12 col-md-8">
                                             <div class="card-body">
                                                 <h5 class="card-title h3 tab-card-heading">Lunch Break</h5>
                                                 <p class="card-text">This is a wider card with supporting text below as
@@ -444,10 +482,10 @@
 
                                             </div>
                                         </div>
-                                        <div class="col-12 col-sm-4">
-                                            <div class="card-in-img">
+                                        <div class="col-12 col-md-4">
+                                            <div class="card-in-img    ii" style="padding: 0 40%;">
                                                 <img src="https://reactheme.com/products/html/evenio/assets/images/tab/5.jpg"
-                                                    width="20%" style="border-radius: 50%;" alt="">
+                                                    width="max(20%,50px)" style="border-radius: 50%;" alt="">
                                                 <!-- <img src="https://reactheme.com/products/html/evenio/assets/images/tab/4.jpg" width="20%" style="border-radius: 50%;" alt=""> -->
                                             </div>
                                         </div>
@@ -469,7 +507,7 @@
 
                                 <div class="container">
                                     <div class="row " style="margin-top:3% ;">
-                                        <div class="col-12 col-sm-8">
+                                        <div class="col-12 col-md-8">
                                             <div class="card-body">
                                                 <h5 class="card-title h3 tab-card-heading">Reinventing Experiences</h5>
                                                 <p class="card-text">This is a wider card with supporting text below as
@@ -478,12 +516,12 @@
 
                                             </div>
                                         </div>
-                                        <div class="col-12 col-sm-4">
-                                            <div class="card-in-img">
+                                        <div class="col-12 col-md-4">
+                                            <div class="card-in-img" style="padding: 0 28%;">
                                                 <img src="https://reactheme.com/products/html/evenio/assets/images/tab/6.jpg"
-                                                    width="20%" style="border-radius: 50%;" alt="">
+                                                    width="max(20%,50px)" style="border-radius: 50%;" alt="">
                                                 <img src="https://reactheme.com/products/html/evenio/assets/images/tab/1.jpg"
-                                                    width="20%" style="border-radius: 50%;" alt="">
+                                                    width="max(20%,50px)" style="border-radius: 50%;" alt="">
                                                 <!-- <img src="https://reactheme.com/products/html/evenio/assets/images/tab/2.jpg" width="30%" style="border-radius: 50%;" alt=""> -->
                                             </div>
                                         </div>
@@ -512,7 +550,7 @@
 
                                 <div class="container">
                                     <div class="row " style="margin-top:3% ;">
-                                        <div class="col-12 col-sm-8">
+                                        <div class="col-12 col-md-8">
                                             <div class="card-body">
                                                 <h5 class="card-title h3 tab-card-heading">Introduction Business</h5>
                                                 <p class="card-text">This is a wider card with supporting text below as
@@ -521,12 +559,12 @@
 
                                             </div>
                                         </div>
-                                        <div class="col-12 col-sm-4">
-                                            <div class="card-in-img">
+                                        <div class="col-12 col-md-4">
+                                            <div class="card-in-img" style="padding: 0 28%;">
                                                 <img src="https://reactheme.com/products/html/evenio/assets/images/tab/1.jpg"
-                                                    width="20%" style="border-radius: 50%;" alt="">
+                                                    width="max(20%,50px)" style="border-radius: 50%;" alt="">
                                                 <img src="https://reactheme.com/products/html/evenio/assets/images/tab/2.jpg"
-                                                    width="20%" style="border-radius: 50%;" alt="">
+                                                    width="max(20%,50px)" style="border-radius: 50%;" alt="">
                                             </div>
                                         </div>
                                     </div>
@@ -547,7 +585,7 @@
 
                                 <div class="container">
                                     <div class="row " style="margin-top:3% ;">
-                                        <div class="col-12 col-sm-8">
+                                        <div class="col-12 col-md-8">
                                             <div class="card-body">
                                                 <h5 class="card-title h3 tab-card-heading">Digital Marketing Theory</h5>
                                                 <p class="card-text">This is a wider card with supporting text below as
@@ -556,12 +594,12 @@
 
                                             </div>
                                         </div>
-                                        <div class="col-12 col-sm-4">
-                                            <div class="card-in-img">
+                                        <div class="col-12 col-md-4">
+                                            <div class="card-in-img" style="padding: 0 28%;">
                                                 <img src="https://reactheme.com/products/html/evenio/assets/images/tab/3.jpg"
-                                                    width="20%" style="border-radius: 50%;" alt="">
+                                                    width="max(20%,50px)" style="border-radius: 50%;" alt="">
                                                 <img src="https://reactheme.com/products/html/evenio/assets/images/tab/4.jpg"
-                                                    width="20%" style="border-radius: 50%;" alt="">
+                                                    width="max(20%,50px)" style="border-radius: 50%;" alt="">
                                             </div>
                                         </div>
                                     </div>
@@ -582,7 +620,7 @@
 
                                 <div class="container">
                                     <div class="row " style="margin-top:3% ;">
-                                        <div class="col-12 col-sm-8">
+                                        <div class="col-12 col-md-8">
                                             <div class="card-body">
                                                 <h5 class="card-title h3 tab-card-heading">Lunch Break</h5>
                                                 <p class="card-text">This is a wider card with supporting text below as
@@ -591,10 +629,10 @@
 
                                             </div>
                                         </div>
-                                        <div class="col-12 col-sm-4">
-                                            <div class="card-in-img">
+                                        <div class="col-12 col-md-4">
+                                            <div class="card-in-img  ii" style="padding: 0 40%;">
                                                 <img src="https://reactheme.com/products/html/evenio/assets/images/tab/5.jpg"
-                                                    width="20%" style="border-radius: 50%;" alt="">
+                                                    width="max(20%,50px)" style="border-radius: 50%;" alt="">
                                                 <!-- <img src="https://reactheme.com/products/html/evenio/assets/images/tab/2.jpg" width="30%" style="border-radius: 50%;" alt=""> -->
                                             </div>
                                         </div>
@@ -616,7 +654,7 @@
 
                                 <div class="container">
                                     <div class="row " style="margin-top:3% ;">
-                                        <div class="col-12 col-sm-8">
+                                        <div class="col-12 col-md-8">
                                             <div class="card-body">
                                                 <h5 class="card-title h3 tab-card-heading">Marketing Workshop</h5>
                                                 <p class="card-text">This is a wider card with supporting text below as
@@ -625,12 +663,12 @@
 
                                             </div>
                                         </div>
-                                        <div class="col-12 col-sm-4">
-                                            <div class="card-in-img">
+                                        <div class="col-12 col-md-4">
+                                            <div class="card-in-img" style="padding: 0 28%;">
                                                 <img src="https://reactheme.com/products/html/evenio/assets/images/tab/6.jpg"
-                                                    width="20%" style="border-radius: 50%;" alt="">
+                                                    width="max(20%,50px)" style="border-radius: 50%;" alt="">
                                                 <img src="https://reactheme.com/products/html/evenio/assets/images/tab/7.jpg"
-                                                    width="20%" style="border-radius: 50%;" alt="">
+                                                    width="max(20%,50px)" style="border-radius: 50%;" alt="">
                                             </div>
                                         </div>
                                     </div>
@@ -732,7 +770,7 @@
 
         <div class="container-fluid"
             style="background:url('https://reactheme.com/products/html/evenio/assets/images/bg/price-bg6.png') no-repeat center center/cover;">
-            <div class="container my-5">
+            <div class="container Ticket-section my-5">
                 <div class="row py-5">
                     <div class="col-12 text-center">
                         <p class="small"> TICKETS</p>
@@ -870,7 +908,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-6 col-md-3 m-auto">
+                <div class="col-8 col-md-3 m-auto">
                     <button type="button" class="btn btn-warning text-bold text-white mx-auto">Become a Sponser</button>
                 </div>
             </div>

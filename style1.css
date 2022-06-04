@@ -4,6 +4,9 @@ body {
     font-size: 100%;
     font-family: 'Poppins', sans-serif;
 }
+#btn-tog{
+    
+}
 
 .bannersection {
     background: url(Background.png) no-repeat center center/cover;
@@ -16,13 +19,13 @@ body {
 }
 
 .bannersection .text h1 {
-    font-size: 9vw;
+    font-size: max(9vw,60px);
     font-weight: bolder;
     color: #eb3f0f;
 }
 
 .bannersection .text h2 {
-    font-size: 3vw;
+    font-size: max(3vw,25px);
     font-weight: bolder;
 }
 
@@ -60,7 +63,7 @@ padding: 6px 12px;
     background-color: white;
     width: 80%;
     margin-left: 10%;
-    padding: 10px;
+    padding:0;
     bottom: -15%;
     text-align: center;
     box-shadow: 0px 1px 10px rgb(105, 71, 71);
@@ -80,14 +83,14 @@ padding: 6px 12px;
     font-size: 1.5vw; 
 } */
 
-.card-body{
+.Ticket-section .card-body{
     padding: 40px 0px;
 }
-.card-body .small{ 
+.Ticket-section .card-body .small{ 
     color: #eb3f0f;
 
 }
-.card-body .card-title{
+.Ticket-section .card-body .card-title{
     font-size: 3vw;
     font-weight: bold;
     /* color: #eb3f0f; */
@@ -120,7 +123,15 @@ padding: 6px 12px;
  
 .partner_section .img1{
     width: 70%;
-    margin: auto;
+    /* margin: auto; */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 
 }
- 
+ @media screen and (min-width:800px) {
+     .ii{
+         padding: 0 60px !important;
+     }
+     
+ }
